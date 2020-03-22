@@ -1,11 +1,11 @@
+* {
+  scroll-behavior: smooth;
+}
+
 #logo img {
   z-index: 1;
   max-width: 15%;
   margin: 12px;
-}
-
-.navbar-inner {
-  background:transparent;
 }
 
 .hero {
@@ -23,17 +23,34 @@
 }
 
 .header-content {
-  padding: 5px;
+  padding: 7px;
   width: 450px;
   background-color:rgba(0, 0, 0, .3);
   border-radius: 10px;
+}
+
+@media(max-width: 500px) {
+  .header-content {
+    width: 75%;    
+  }
 }
 
 .h-p {
   width: 85%;
   display: inline-block;
   text-align: center;
+  padding: 2px;
+  
 }
+
+.help-info {
+  text-align: left;
+}
+
+.help-button {
+  text-align: right;
+}
+
 
 .btn:hover {
   opacity: 0.9;
