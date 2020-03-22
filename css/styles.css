@@ -1,0 +1,10 @@
+#logo img {
+  z-index: 1;
+  max-width: 15%;
+  margin: 12px;
+}
+
+.navbar {
+  z-index: 1;
+  background: none;
+}
