@@ -18,6 +18,14 @@ body {
   margin: 12px;
 }
 
+.nav-link {
+  color: #2664A1 !important;
+}
+
+.nav-link:hover {
+  color: #D96F32 !important;
+}
+
 .navbar {
   background-color: white;
 }
