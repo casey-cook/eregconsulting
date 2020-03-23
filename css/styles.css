@@ -2,10 +2,18 @@
   scroll-behavior: smooth;
 }
 
+body { 
+  padding-top: 70px; 
+}
+
 #logo img {
   z-index: 1;
   max-width: 15%;
   margin: 12px;
+}
+
+.navbar {
+  background-color: white;
 }
 
 .hero {
@@ -51,7 +59,33 @@
   text-align: right;
 }
 
+.services {
+  text-align: center;
+  width: 65%;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.card {
+  text-align: center;
+  color: #5D8C2E;
+}
+
+.card p {
+  color: black;
+}
+
+@media(max-width: 500px) {
+  .services {
+    width: 85%;    
+  }
+}
 
 .btn:hover {
   opacity: 0.9;
+}
+
+.card:hover {
+  background-color: #5D8C2E;
+  color: white;
 }
