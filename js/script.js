@@ -33,3 +33,14 @@ $(".card6").hover(function(){
   }, function(){
   $(".card6 p").css("color", "black");
 });
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-77px";
+  }
+  prevScrollpos = currentScrollPos;
+}

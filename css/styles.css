@@ -3,12 +3,12 @@
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Montserrat";
+  font-family: "Lato";
   font-weight: 700;
 }
 
 body { 
-  padding-top: 70px; 
+  padding-top: 77px; 
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -33,6 +33,7 @@ body {
 .company-title {
   display: none;
   color: #5D8C2E;
+  font-family: "Lato";
 }
 
 @media(min-width: 1000px) {
@@ -57,15 +58,15 @@ body {
 }
 
 .header-content {
-  padding: 7px;
+  padding: 15px;
   width: 450px;
-  background-color:rgba(0, 0, 0, .3);
-  border-radius: 10px;
+  background-color:rgba(0, 0, 0, .5);
+  border-radius: 9px;
 }
 
 @media(max-width: 500px) {
   .header-content {
-    width: 75%;    
+    width: 80%;    
   }
 }
 
@@ -114,4 +115,30 @@ body {
 .card:hover {
   background-color: #5D8C2E;
   color: white;
+}
+
+#contactus {
+  margin-top: 50px;
+}
+
+#left-contact {
+  background: url('/img/hero.jpg')no-repeat center/cover;
+  border-radius: 6px;
+}
+
+#quote {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, .5);
+    padding: 30px 60px;
+    border-radius: 4px;
+}
+
+a:hover {
+  opacity: .7;
+  text-decoration: none !important;
 }
