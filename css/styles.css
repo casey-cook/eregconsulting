@@ -33,7 +33,8 @@ body {
 .company-title {
   display: none;
   color: #5D8C2E;
-  font-family: "Lato";
+  font-family: 'Roboto Slab', serif;
+
 }
 
 @media(min-width: 1000px) {
@@ -88,7 +89,7 @@ body {
 
 .services {
   text-align: center;
-  width: 65%;
+  width: 80%;
   margin: 0px auto;
   margin-top: 20px;
 }
@@ -104,7 +105,7 @@ body {
 
 @media(max-width: 500px) {
   .services {
-    width: 85%;    
+    width: 95%;    
   }
 }
 
@@ -129,13 +130,18 @@ body {
 #quote {
     color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 75%;
+    top: 80%;
+    left: 40%;
+    width: 90%;
     transform: translate(-50%, -50%);
-    background-color:rgba(0, 0, 0, .5);
     padding: 30px 60px;
     border-radius: 4px;
+}
+
+@media(max-width: 768px) {
+  #left-contact {
+    display: none;    
+  }
 }
 
 a:hover {
@@ -144,5 +150,5 @@ a:hover {
 }
 
 footer {
-  background-image: linear-gradient(white, #5D8C2E);
+  background-color: #3d4849;
 }
