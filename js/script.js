@@ -34,6 +34,7 @@ $(".card6").hover(function(){
   $(".card6 p").css("color", "black");
 });
 
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;

@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body { 
-  padding-top: 77px; 
+  padding-top: 80px; 
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,6 +28,7 @@ body {
 
 .navbar {
   background-color: white;
+  transition: top 0.3s; /* Transition effect when sliding down (and up)*/
 }
 
 .company-title {
@@ -54,7 +55,6 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-bottom: 50px;
   margin-bottom: 20px;
 }
 
@@ -71,20 +71,19 @@ body {
   }
 }
 
+#boardwalk {
+  margin: 0px auto;
+}
+
+#help-info {
+  margin: auto, auto;
+}
+
 .h-p {
   width: 85%;
-  display: inline-block;
   text-align: center;
   padding: 2px;
   
-}
-
-.help-info {
-  text-align: left;
-}
-
-.help-button {
-  text-align: right;
 }
 
 .services {
@@ -102,6 +101,8 @@ body {
 .card p {
   color: black;
 }
+
+
 
 @media(max-width: 500px) {
   .services {
@@ -150,5 +151,7 @@ a:hover {
 }
 
 footer {
-  background-color: #3d4849;
+  background-color: #122640;
+  color: white;
+  margin-top: -20px;
 }
