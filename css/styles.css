@@ -142,3 +142,7 @@ a:hover {
   opacity: .7;
   text-decoration: none !important;
 }
+
+footer {
+  background-image: linear-gradient(white, #5D8C2E);
+}
