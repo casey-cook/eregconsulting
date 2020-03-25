@@ -17,7 +17,7 @@
   <!--Navbar-->
   <nav class="navbar fixed-top navbar-light navbar-expand-sm" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="img/logosmaller.jpg" alt="E-reg Consulting Logo"></a>
+      <a class="navbar-brand" href="#" id="smallLogo"><img src="img/logosmaller.jpg" alt="E-reg Consulting Logo"></a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,7 +37,7 @@
           </li>
         </ul>
       </div>
-      <a href="#"><h2 class="company-title mt-1">E-Reg Consulting, LLC</h2></a>
+      <a href="#" id="company-title"><img src="img/ercLogoLong2.png" alt=""></a>
     </div>
   </nav>
  
@@ -45,7 +45,7 @@
     <header class="hero">
       <div class="header-content">
         <h2>Environmental Permitting</h2>
-        <p class="h-p">E-Reg Consulting, LLC is ready to assist you with all your environmental permitting needs on a County, State and Federal level</p>
+        <p class="h-p mx-auto">E-Reg Consulting, LLC is ready to assist you with all your environmental permitting needs on a County, State and Federal level</p>
         <p><a class="btn btn-primary" href="#about">Learn More</a></p>
       </div>
     </header>
@@ -81,7 +81,7 @@
             <div class="card-body">
               <i class="fa fa-home fa-5x d-flex justify-content-center"></i>
               <h5 class="card-title mt-3">Residential</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, animi dicta?</p>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
             <div class="card-body">
               <i class="fa fa-map-o fa-5x d-flex justify-content-center"></i>
               <h5 class="card-title mt-3">Subdivisions</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, animi dicta?</p>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
             <div class="card-body">
               <i class="fa fa-envira fa-5x d-flex justify-content-center"></i>
               <h5 class="card-title mt-3">Wetlands</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, animi dicta?</p>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@
             <div class="card-body">
               <i class="fa fa-search fa-5x d-flex justify-content-center"></i>
               <h5 class="card-title mt-3">Species Surveys</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, animi dicta?</p>
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@
             <div class="card-body">
               <i class="fa fa-legal fa-5x d-flex justify-content-center"></i>
               <h5 class="card-title mt-3">Mitigation</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, animi dicta?</p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@
             <div class="card-body">
               <i class="fa fa-binoculars fa-5x d-flex justify-content-center"></i>
               <h5 class="card-title mt-3">Docks</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, animi dicta?</p>
             </div>
           </div>
         </div>
@@ -158,6 +158,10 @@
               <input type="email" class="form-control" id="email" placeholder="" name="email">
             </div>
             <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="phone" class="form-control" id="phone" placeholder="" name="phone">
+            </div>
+            <div class="form-group">
               <label for="emailSubject">Subject</label>
               <input type="text" class="form-control" id="emailSubject" placeholder=""name="subject">
             </div>
@@ -178,13 +182,14 @@
 
     <div class="container-fluid text-center text-md-left">
       <div class="row">
-        <div class="col-md-4 mt-md-0 mt-3">
+        <div class="col-md-3 mt-md-0 mt-3">
           <h5 class="text-uppercase">E-reg Consulting, LLC</h5>
           <p>1915 Cypress Lake Drive, Grant-Valkaria, FL 32949</p>
         </div>
 
         <hr class="clearfix w-100 d-md-none pb-3">
 
+        <div class="col-md-2"></div>
         <div class="col-md-4 mb-md-0 mb-3">
           <h5 class="text-uppercase">Sitemap</h5>
           <ul class="list-unstyled">
@@ -203,7 +208,7 @@
           </ul>
         </div>
 
-        <div class="col-md-4 mb-md-0 mb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
           <h5 class="text-uppercase">Contact Us</h5>
           <ul class="list-unstyled">
             <li>
@@ -213,21 +218,12 @@
               <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Eric.Muldowney@E-RegConsulting.com</a>
             </li>
           </ul>
-
         </div>
-        <!-- Grid column -->
-
       </div>
-      <!-- Grid row -->
-
     </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
     <div class="footer-copyright text-center pb-4 pt-4">© 2020 E-reg Consulting, LLC All Rights Reserved
     </div>
-    <!-- Copyright -->
-
+  
   </footer>
 
 <!--Dependencies-->

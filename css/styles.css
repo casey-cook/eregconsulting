@@ -12,12 +12,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#logo img {
-  z-index: 1;
-  max-width: 15%;
-  margin: 12px;
-}
-
 .nav-link {
   color: #2664A1 !important;
 }
@@ -31,15 +25,19 @@ body {
   transition: top 0.3s; /* Transition effect when sliding down (and up)*/
 }
 
-.company-title {
+@media(min-width: 999px) {
+  #smallLogo {
+    display: none;    
+  }
+}
+
+#company-title {
   display: none;
-  color: #5D8C2E;
-  font-family: 'Roboto Slab', serif;
 
 }
 
 @media(min-width: 1000px) {
-  .company-title {
+  #company-title {
     display: inline;    
   }
 }
@@ -81,7 +79,6 @@ body {
 
 .h-p {
   width: 85%;
-  text-align: center;
   padding: 2px;
   
 }
