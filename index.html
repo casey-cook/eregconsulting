@@ -17,7 +17,7 @@
   <!--Navbar-->
   <nav class="navbar fixed-top navbar-light navbar-expand-sm" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="#" id="smallLogo"><img src="img/logosmaller.jpg" alt="E-reg Consulting Logo"></a>
+      <a class="navbar-brand" href="#" id="smallLogo"><img src="img/logosmaller.jpg" alt="E-reg Consulting logo thumbnail"></a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,7 +37,7 @@
           </li>
         </ul>
       </div>
-      <a href="#" id="company-title"><img src="img/ercLogoLong2.png" alt=""></a>
+      <a href="#" id="companyTitle"><img src="img/ercLogoLong2.png" alt="E-Reg Consulting large logo"></a>
     </div>
   </nav>
  
@@ -45,19 +45,18 @@
     <header class="hero">
       <div class="header-content">
         <h2>Environmental Permitting</h2>
-        <p class="h-p mx-auto">E-Reg Consulting, LLC is ready to assist you with all your environmental permitting needs on a County, State and Federal level</p>
+        <p id="headerInfo" class="mx-auto">E-Reg Consulting, LLC is ready to assist you with all your environmental permitting needs on a County, State and Federal level</p>
         <p><a class="btn btn-primary" href="#about">Learn More</a></p>
       </div>
     </header>
   </div>
-  <div class="empty" id="about"></div>
+  <div class="empty" id="about"></div> <!--for specific navbar link destination-->
  
   <div class="container">
     <div class="row row-content">
       <h2 class="mx-auto mt-4">About Us</h2>
     </div>
     <div class="row row-content mt-3">
-
       <div class="col col-md-6 px-md-1 my-auto mt-3">
         <img class="d-block" id="boardwalk" src="img/heretohelp.jpg" alt="Boardwalk on the beach">
       </div>
@@ -66,15 +65,12 @@
         <p>Obtain the benefit of 15 years of State regulatory wetland biology experience operating in Brevard, Indian River, Volusia, Osceola, Orange and Lake Counties. E-Reg Consulting, LLC specializes in subdivision, commercial, roadway and utility development.</p>
       </div>
     </div>
-
       <div class="row row-content services pt-3" id="services">
         <div class="col-sm-12 col-md-8 col-9 mx-auto">
           <h2>Services</h2>
-          <p>Individual ERPs - Conceptual ERPs - General ERPs -Multiple Phase Subdivisions - Wetland Delineation - UMAM Assessments - Listed Species Surveys - Seagrass / SAV Surveys - Mitigation - Aquatic Preserve Docks - SSL Easements and Leases - Violations and Consent Orders - and more...
-          
+          <p>Individual ERPs - Conceptual ERPs - General ERPs -Multiple Phase Subdivisions - Wetland Delineation - UMAM Assessments - Listed Species Surveys - Seagrass / SAV Surveys - Mitigation - Aquatic Preserve Docks - SSL Easements and Leases - Violations and Consent Orders - and more
         </div>
       </div>
-
       <div class="row-2 row mt-5">
         <div class="col-md-4">
           <div class="card card1">
@@ -136,55 +132,55 @@
       </div>
 
       <!--Contact Us Section-->
-      <div class="row mt-5" id="contact">
-        <div class="col col-md-6 mb-4" id="left-contact">
-          <div id="quote"><h3>“There can be no greater issue than that of conservation in this country"</h3><br><h5 class="caption">Theodore Roosevelt<h5></div>
-        </div>
-        <div class="col-12 col-md-6 my-4" id="right-contact">
-          <h3>Let's Plan Your Next Project</h3>
-          <form action="https://formspree.io/mlelzejp" method="POST">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="firstName">First Name</label>
-                <input type="firstName" class="form-control" id="firstName" name="firstName" placeholder="">
+      <div class="container">
+        <div class="row mt-5" id="contact">
+          <div class="col col-md-6 mb-4" id="left-contact">
+            <div id="quote"><h3>“There can be no greater issue than that of conservation in this country"</h3><br><h5 class="caption">Theodore Roosevelt<h5></div>
+          </div>
+          <div class="col-12 col-md-6 my-4" id="right-contact">
+            <h3>Let's Plan Your Next Project</h3>
+            <form action="https://formspree.io/mlelzejp" method="POST">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="firstName">First Name</label>
+                  <input type="firstName" class="form-control" id="firstName" name="firstName" placeholder="">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastName">Last Name</label>
+                  <input type="lastName" class="form-control" id="lastName" name="lastName" placeholder="">
+                </div>
               </div>
-              <div class="form-group col-md-6">
-                <label for="lastName">Last Name</label>
-                <input type="lastName" class="form-control" id="lastName" name="lastName" placeholder="">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="" name="email">
               </div>
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="" name="email">
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone</label>
-              <input type="phone" class="form-control" id="phone" placeholder="" name="phone">
-            </div>
-            <div class="form-group">
-              <label for="emailSubject">Subject</label>
-              <input type="text" class="form-control" id="emailSubject" placeholder=""name="subject">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="7" name="message"></textarea>
-            </div>
-            <button type="submit" value="Send" class="btn btn-primary d-flex" id="formSend">Send Message</button>
-          </form>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="phone" class="form-control" id="phone" placeholder="" name="phone">
+              </div>
+              <div class="form-group">
+                <label for="emailSubject">Subject</label>
+                <input type="text" class="form-control" id="emailSubject" placeholder=""name="subject">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="7" name="message"></textarea>
+              </div>
+              <button type="submit" value="Send" class="btn btn-primary d-flex" id="formSend">Send Message</button>
+            </form>
+          </div>
         </div>
       </div>
 
       <hr>
   </div>
-
   <!-- Footer -->
   <footer class="page-footer font-small blue pt-5">
-
     <div class="container-fluid text-center text-md-left">
       <div class="row">
         <div class="col-md-3 mt-md-0 mt-3">
-          <h5 class="text-uppercase">E-reg Consulting, LLC</h5>
-          <p>1915 Cypress Lake Drive, Grant-Valkaria, FL 32949</p>
+          <h5 class="text-uppercase">E-reg Consulting, LLC</h5><a href="https://goo.gl/maps/1BNx2ge8crWym5Dr9" target="_blank">
+          <p>1915 Cypress Lake Drive, Grant-Valkaria, FL 32949</p></a>
         </div>
 
         <hr class="clearfix w-100 d-md-none pb-3">
@@ -207,7 +203,6 @@
             </li>
           </ul>
         </div>
-
         <div class="col-md-3 mb-md-0 mb-3">
           <h5 class="text-uppercase">Contact Us</h5>
           <ul class="list-unstyled">
@@ -223,14 +218,11 @@
     </div>
     <div class="footer-copyright text-center pb-4 pt-4">© 2020 E-reg Consulting, LLC All Rights Reserved
     </div>
-  
   </footer>
-
 <!--Dependencies-->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
-
 </html>

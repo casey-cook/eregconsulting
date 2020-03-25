@@ -12,6 +12,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+a:hover {
+  opacity: .7;
+  text-decoration: none !important;
+}
+
+.navbar {
+  background-color: white;
+  transition: top 0.3s; /* Transition effect when sliding down (and up)*/
+}
+
 .nav-link {
   color: #2664A1 !important;
 }
@@ -20,28 +30,22 @@ body {
   color: #D96F32 !important;
 }
 
-.navbar {
-  background-color: white;
-  transition: top 0.3s; /* Transition effect when sliding down (and up)*/
-}
-
 @media(min-width: 999px) {
   #smallLogo {
     display: none;    
   }
 }
 
-#company-title {
+#companyTitle {
   display: none;
 
 }
 
 @media(min-width: 1000px) {
-  #company-title {
+  #companyTitle {
     display: inline;    
   }
 }
-
 
 .hero {
   width: 100%;
@@ -77,7 +81,7 @@ body {
   margin: auto, auto;
 }
 
-.h-p {
+#headerInfo {
   width: 85%;
   padding: 2px;
   
@@ -98,8 +102,6 @@ body {
 .card p {
   color: black;
 }
-
-
 
 @media(max-width: 500px) {
   .services {
@@ -125,6 +127,12 @@ body {
   border-radius: 6px;
 }
 
+@media(max-width: 768px) {
+  #left-contact {
+    display: none;    
+  }
+}
+
 #quote {
     color: white;
     position: absolute;
@@ -136,15 +144,13 @@ body {
     border-radius: 4px;
 }
 
-@media(max-width: 768px) {
-  #left-contact {
-    display: none;    
-  }
+#right-contact {
+  padding-right: 0px;
 }
 
-a:hover {
-  opacity: .7;
-  text-decoration: none !important;
+#message {
+  resize: none;
+  overflow: auto;
 }
 
 footer {
