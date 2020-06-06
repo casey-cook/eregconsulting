@@ -1,167 +1,200 @@
 * {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Lato";
-  font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Lato';
 }
 
-body { 
-  padding-top: 80px; 
-  font-family: 'Open Sans', sans-serif;
+body {
+	padding-top: 80px;
+	font-family: Roboto;
 }
 
 a:hover {
-  opacity: .7;
-  text-decoration: none !important;
+	opacity: 0.7;
+	text-decoration: none !important;
 }
 
 .navbar {
-  background-color: white;
-  transition: top 0.3s; /* Transition effect when sliding down (and up)*/
+	background-color: white;
+	transition: top 0.3s; /* Transition effect when sliding down (and up)*/
 }
 
 .nav-link {
-  color: #2664A1 !important;
+	color: #2664a1 !important;
 }
 
 .nav-link:hover {
-  color: #D96F32 !important;
+	color: #d96f32 !important;
 }
 
-@media(min-width: 999px) {
-  #smallLogo {
-    display: none;    
-  }
+#navBrand {
+	font-weight: bold;
+}
+
+@media (min-width: 999px) {
+	#smallLogo {
+		display: none;
+	}
 }
 
 #companyTitle {
-  display: none;
-
+	display: none;
 }
 
-@media(min-width: 1000px) {
-  #companyTitle {
-    display: inline;    
-  }
+@media (min-width: 1000px) {
+	#companyTitle {
+		display: inline;
+	}
 }
 
 .hero {
-  width: 100%;
-  height:500px;
-  color:white;
-  background: url(../img/hero2ereg.jpg) no-repeat center center/cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 20px;
+	width: 100%;
+	height: 100vh;
+	color: white;
+	background: url(../img/hero4.jpg) no-repeat center center/cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: -80px;
+}
+
+#header-heading {
+	font-size: 2em;
 }
 
 .header-content {
-  padding: 15px;
-  width: 450px;
-  background-color:rgba(0, 0, 0, .5);
-  border-radius: 9px;
+	padding: 20px;
+	width: 450px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 6px;
 }
 
-@media(max-width: 500px) {
-  .header-content {
-    width: 80%;    
-  }
+#headBtn {
+	background-color: #5196a6;
+	color: white;
 }
 
-#boardwalk {
-  margin: 0px auto;
+@media (max-width: 500px) {
+	.header-content {
+		width: 80%;
+	}
+}
+
+#aboutSection {
+	min-height: 75vh;
+}
+
+#crane {
+	margin: 0px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 #help-info {
-  margin: auto, auto;
+	margin: auto, auto;
 }
 
 #headerInfo {
-  width: 85%;
-  padding: 2px;
-  
+	width: 85%;
+	padding: 2px;
+}
+
+#serviceCont {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	padding: 0;
 }
 
 .services {
-  text-align: center;
-  width: 100%;
-  height: 350px;
-  margin: 0px auto;
-  margin-top: 20px;
-  background-image: linear-gradient(#2664A1, white);
-  color: white;
+	text-align: center;
+	width: 100%;
+	height: 350px;
+	margin: 0px auto;
+	margin-top: 20px;
+	background-color: #2664a1;
+	color: white;
 }
 
 #serviceList {
-  padding-top: 15px;
+	padding-top: 15px;
+	max-width: 525px;
+	margin: 0px auto;
 }
 
 .card {
-  text-align: center;
-  color: #5D8C2E;
+	text-align: center;
+	color: #5d8c2e;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .card p {
-  color: black;
+	color: black;
 }
 
-@media(max-width: 500px) {
-  .services {
-    width: 95%;    
-  }
+@media (max-width: 500px) {
+	.services {
+		width: 95%;
+	}
 }
 
 .btn:hover {
-  opacity: 0.9;
+	opacity: 0.9;
 }
 
 .card:hover {
-  background-color: #5D8C2E;
-  color: white;
+	background-color: #5d8c2e;
+	color: white;
 }
 
 #contactus {
-  margin-top: 50px;
+	margin-top: 50px;
 }
 
 #left-contact {
-  background: url('../img/hero.jpg')no-repeat center/cover;
-  border-radius: 6px;
+	background: url('../img/hero.jpg') no-repeat center/cover;
+	border-radius: 6px;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
 }
 
-@media(max-width: 768px) {
-  #left-contact {
-    display: none;    
-  }
+@media (max-width: 768px) {
+	#left-contact {
+		display: none;
+	}
 }
 
 #quote {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 90%;
-    transform: translate(-50%, -50%);
-    padding: 30px 60px;
-    border-radius: 4px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90%;
+	transform: translate(-50%, -50%);
+	padding: 30px 60px;
+	border-radius: 4px;
 }
 
 #right-contact {
-  padding-right: 0px;
+	padding-right: 0px;
+}
+
+#squeezeMe {
+	width: 90%;
 }
 
 #message {
-  resize: none;
-  overflow: auto;
+	resize: none;
+	overflow: auto;
 }
 
 footer {
-  background-color: #122640;
-  color: white;
-  margin-top: -20px;
+	background-color: #122640;
+	color: white;
+	margin-top: -20px;
 }
