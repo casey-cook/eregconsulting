@@ -1,3 +1,14 @@
+
+
+
+//modal logic 
+$("#realtorButton").click(function(){
+  $('#realtorModal').modal('show');
+});
+
+
+
+//p text on hover logic 
 $(".card1").hover(function(){
   $(".card1 p").css("color", "white");
   }, function(){
@@ -35,6 +46,7 @@ $(".card6").hover(function(){
 });
 
 
+//navbar logic
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
