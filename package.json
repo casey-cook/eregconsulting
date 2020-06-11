@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite"
+    "start": "npm run lite",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "lite-server": "^2.5.4",
     "nodemailer": "^6.4.6",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
   }
 }
