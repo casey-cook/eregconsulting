@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans|Lato&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet' />
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  
   <title>E-reg Consulting - Environmental Consulting Services - Serving Brevard, Volusia, Indian River, Osceola, Orange, and Lake Counties</title>
 </head>
 
@@ -18,7 +23,7 @@
   <!--Navbar-->
   <nav class="navbar fixed-top navbar-light navbar-expand-sm" id="navbar">
     <div class="container">
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -80,9 +85,10 @@
     <header class="hero">
       <div class="header-content">
         <p id="headerInfo" class="mx-auto">
-          <h1>Minimize your regulatory burden.</h1> 
+          <h1>Let us minimize your regulatory burden.</h1> 
           We are here to get you through the planning and permitting process as quickly and easily as possible</p>
-        <p><a class="btn" id="headBtn" href="#about"><i class="fa fa-chevron-down"></i></a></p>
+        </p>
+        <a class="btn" id="headBtn" href="#about"><i class="fa fa-chevron-down"></i></a>
       </div>
     </header>
   </div>
@@ -180,10 +186,14 @@
 
   <!--Gallery Section-->
 
-  <div class="container mb-2">
+  <div class="container mb-2" id="gallery-cont">
     <div data-aos='fade-up' data-aos-duration='700' class="row row-content mb-3">
       <h2 class="mx-auto mt-5">Field Gallery</h2>
     </div>
+    <div data-aos='fade-up' data-aos-duration='700' class="row row-content mb-3">
+      <p class="mx-auto mt-2">Highlights from a few of our 2020 projects</p>
+    </div>
+    
     <div class="row row-content">
       <div class="col-md-8 mx-auto">
         <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -222,12 +232,7 @@
         </div>
       </div>
     </div>
-
   </div>
-  
-    
-
-      
 
   <!--Contact Us Section-->
   <div class="container">
@@ -272,7 +277,7 @@
     </div>
   </div>
 
-      <hr>
+  <hr>
   </div>
   <!-- Footer -->
   <footer class="page-footer font-small blue pt-5">
@@ -317,11 +322,19 @@
     <div class="footer-copyright text-center pb-4 pt-4">© 2020 E-reg Consulting, LLC All Rights Reserved
     </div>
   </footer>
-<!--Dependencies-->
+
+  <!-- build:js js/main.js-->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/script.js"></script>
+
+  <!-- endbuild -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
 </html>

@@ -1,5 +1,3 @@
-AOS.init();
-
 //modal logic 
 $("#realtorButton").click(function(){
   $('#realtorModal').modal('show');

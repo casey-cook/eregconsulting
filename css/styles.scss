@@ -41,6 +41,15 @@ a:hover {
 	color: $color-orange !important;
 }
 
+button, .navbar-toggler-icon {
+  border: none !important;
+}
+
+.iconify {
+  color: black
+}
+
+
 #navBrand {
 	font-weight: bold;
 }
@@ -113,6 +122,11 @@ a:hover {
 	}
 }
 
+#headBtn:hover {
+transform: translateY(5px);
+transition: ease-in-out .5s;
+}
+
 #aboutSection {
 	min-height: 450px;
 }
@@ -133,17 +147,19 @@ a:hover {
 }
 
 #serviceCont {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 	padding: 0;
 }
 
 .services {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 	text-align: center;
-	width: 100%;
+  width: 90%;
+  max-width: 700px;
 	height: 350px;
 	margin: 0px auto;
 	background-color: $color-blue;
-	color: white;
+  color: white;
+  border-radius: 6px;
 }
 
 @media (max-width: 500px) {
@@ -174,8 +190,24 @@ a:hover {
 .card:hover {
 	background-color: $color-green;
   color: white;
-  transition: .6s;
+  transition: .6s ease-in-out;
+}
 
+
+
+#gallery-cont {
+  background-color: $color-headerBtn;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+  padding-bottom: 55px;
+  border-radius: 6px;
+  margin-top: 50px;
+}
+
+#homeCarousel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  background-color: transparent;
 }
 
 #contactus {
@@ -221,5 +253,5 @@ a:hover {
 footer {
 	background-color: $color-darkBlue;
 	color: white;
-	margin-top: -20px;
+  margin-top: -20px;
 }
