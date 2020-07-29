@@ -3,8 +3,6 @@ $("#realtorButton").click(function(){
   $('#realtorModal').modal('show');
 });
 
-
-
 //p text on hover logic 
 $(".card1").hover(function(){
   $(".card1 p").css("color", "white");
