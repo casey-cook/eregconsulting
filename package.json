@@ -34,7 +34,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "lite-server": "^2.5.4",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
